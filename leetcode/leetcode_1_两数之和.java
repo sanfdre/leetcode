@@ -1,14 +1,14 @@
 package leetcode;
 
 import java.util.HashMap;
-import java.util.HashSet;
 
 /**
  * @Author: lilinglin
  * @Description:
  * @Date: Created in 2018/10/12
  */
-public class 两数之和1 {
+public class leetcode_1_两数之和 {
+    //
     public int[] twoSum(int[] nums, int target) {
         int[] result = new int[2];
         HashMap<Integer,Integer> map = new HashMap<>();
